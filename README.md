@@ -156,7 +156,7 @@ A curated list of awesome large AI models in audio signal processing, inspired b
 | Symphony | Symphony generation with permutation invariant language model | 46359 MIDI files | [Download](https://symphonynet.github.io/) |
 | MusicCaps | MusicLM: Generating Music From Text | 5521 music-text pairs | [Download](https://www.kaggle.com/datasets/googleai/musiccaps) |
 | Jamendo | The MTG-Jamendo dataset for automatic music tagging | 55525 Tracks | [Download](https://github.com/MTG/mtg-jamendo-dataset) |
-| JamendoMaxCaps | JamendoMaxCaps: A Large-Scale Music-caption Dataset with Imputed Metadata | 25356 Hours, 262238 Songs | [Download](https://huggingface.co/datasets/amaai-lab/JamendoMaxCaps) |
+| JamendoMaxCaps | JamendoMaxCaps: A Large-Scale Music-caption Dataset with Imputed Metadata | 25356 Hours, 362238 Songs | [Download](https://huggingface.co/datasets/amaai-lab/JamendoMaxCaps) |
 | MusicBench | Mustango: Toward Controllable Text-to-Music Generation | 53168 Tracks | [Download](https://huggingface.co/datasets/amaai-lab/MusicBench) |
 
 
