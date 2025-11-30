@@ -28,7 +28,7 @@ normalize_url() {
   echo "$url"
 }
 
-mapfile -t raw_urls < <(perl -nE 'while (/\[PDF\]\(([^)]+)\)/g) { say $1 }' "$readme_file" | sort -u)
+mapfile -t raw_urls < <(grep -oP '\[PDF\]\(\K[^)]+' "$readme_file" | sort -u)
 
 pdf_urls=()
 for url in "${raw_urls[@]}"; do
